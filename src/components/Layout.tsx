@@ -23,7 +23,7 @@ const AnnouncementBar = () => {
   return (
     <div className="bg-primary text-white py-2 px-4 relative z-50 text-center text-[10px] md:text-sm font-medium tracking-wide">
       <span className="mr-2">🔬</span>
-      Research Partnership: Maynooth University × Roland Begus Autonomous Systems | Now Accepting Enterprise Pilots
+      Research Partnership: Maynooth University × RoliRobotics Limited | Now Accepting Enterprise Pilots
       <button onClick={() => setIsVisible(false)} className="absolute right-4 top-1/2 -translate-y-1/2 hover:opacity-70 transition-opacity">
         <X size={14} />
       </button>
@@ -56,11 +56,16 @@ const Navbar = () => {
         <Link to="/" className="flex items-center gap-3 group">
           <div className="relative">
             <Hexagon className="text-accent fill-accent/10 group-hover:rotate-90 transition-transform duration-500" size={32} />
-            <span className="absolute inset-0 flex items-center justify-center font-orbitron text-[10px] font-bold text-accent">RB</span>
+            <span className="absolute inset-0 flex items-center justify-center">
+              <svg viewBox="0 0 24 24" className="w-5 h-5 text-accent fill-accent" xmlns="http://www.w3.org/2000/svg">
+                {/* Quadruped Silhouette */}
+                <path d="M19,15 L17,15 L16,12 L8,12 L7,15 L5,15 L6,10 L8,8 L16,8 L18,10 L19,15 Z M12,7 C13.1,7 14,6.1 14,5 C14,3.9 13.1,3 12,3 C10.9,3 10,3.9 10,5 C10,6.1 10.9,7 12,7 Z" />
+              </svg>
+            </span>
           </div>
           <div>
-            <div className="font-orbitron font-black text-xl tracking-tighter leading-none">ROLAND BEGUS</div>
-            <div className="font-sans text-[10px] uppercase tracking-[0.2em] text-muted font-semibold">Autonomous Security</div>
+            <div className="font-orbitron font-black text-xl tracking-tighter leading-none">RoliRobotics</div>
+            <div className="font-sans text-[8px] uppercase tracking-[4px] text-accent font-bold">LIMITED</div>
           </div>
         </Link>
 
@@ -97,8 +102,9 @@ const Navbar = () => {
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-3">
                 <Hexagon className="text-accent" size={32} />
-                <div className="font-orbitron font-black text-xl">ROLAND BEGUS</div>
+                <div className="font-orbitron font-black text-xl">RoliRobotics</div>
               </div>
+              <div className="font-sans text-[8px] uppercase tracking-[4px] text-accent font-bold ml-11 -mt-2">LIMITED</div>
               <button onClick={() => setIsMobileMenuOpen(false)}><X size={32} /></button>
             </div>
             <div className="flex flex-col gap-8 mt-12">
@@ -185,8 +191,9 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="flex items-center gap-3">
               <Hexagon className="text-accent" size={32} />
-              <div className="font-orbitron font-black text-xl">ROLAND BEGUS</div>
+              <div className="font-orbitron font-black text-xl">RoliRobotics</div>
             </div>
+            <div className="font-sans text-[8px] uppercase tracking-[4px] text-accent font-bold ml-11 -mt-2 mb-6">LIMITED</div>
             <p className="text-muted text-sm leading-relaxed">Securing Human Lives Through Intelligent Machines. Built with academic excellence and industrial precision.</p>
             <div className="flex gap-4">
               <Linkedin className="text-muted hover:text-accent cursor-pointer transition-colors" size={20} />
@@ -218,14 +225,14 @@ const Footer = () => {
           <div>
             <h4 className="font-orbitron font-bold text-sm mb-6 tracking-widest">CONTACT</h4>
             <ul className="space-y-4 text-xs text-muted font-medium">
-              <li className="flex items-center gap-2"><Mail size={16} className="text-accent" /> roland@autonomoussecurity.ie</li>
+              <li className="flex items-center gap-2"><Mail size={16} className="text-accent" /> contact@rolirobotics.ie</li>
               <li className="flex items-center gap-2"><Hexagon size={16} className="text-accent" /> Maynooth, Co. Kildare, Ireland</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-white/5 pt-12 flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] text-muted font-bold uppercase tracking-widest">
-          <div>© 2025 Roland Begus Autonomous Security Systems. All Rights Reserved.</div>
+          <div>© 2025 RoliRobotics Limited. All Rights Reserved. Registered in Ireland.</div>
           <div className="flex gap-8">
             <span className="hover:text-white cursor-pointer transition-colors">Privacy Policy</span>
             <span className="hover:text-white cursor-pointer transition-colors">Ethics Statement</span>

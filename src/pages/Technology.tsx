@@ -46,7 +46,7 @@ export const Technology = () => {
             className="text-center max-w-3xl mx-auto"
           >
             <div className="text-accent font-orbitron text-xs font-bold tracking-[0.4em] mb-6">
-              THE AEGIS CORE STACK
+              THE ROLIROBOTICS CORE STACK
             </div>
             <h1 className="text-5xl md:text-7xl font-black mb-8 leading-tight">
               AUTONOMOUS <span className="text-primary">INTELLIGENCE</span> AT THE EDGE.
@@ -106,7 +106,7 @@ export const Technology = () => {
           <div>
             <h2 className="text-4xl font-black mb-8 font-orbitron">THE MAYNOOTH <br/><span className="text-primary">RESEARCH PARTNERSHIP</span></h2>
             <p className="text-muted text-lg mb-8 leading-relaxed">
-              The Roland Begus platform is the result of a deep collaboration with Maynooth University's Department of Computer Science and Electronic Engineering. 
+              The RoliRobotics platform is the result of a deep collaboration with Maynooth University's Department of Computer Science and Electronic Engineering. 
             </p>
             <div className="space-y-6">
               {[
@@ -171,7 +171,7 @@ export const Technology = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-black mb-8">WANT THE FULL TECHNICAL SPECIFICATION?</h2>
           <p className="text-muted text-lg mb-12">
-            Download our detailed whitepaper covering the AEGIS architecture, security protocols, and MU research findings.
+            Download our detailed whitepaper covering the RoliRobotics platform architecture, security protocols, and MU research findings.
           </p>
           <button className="px-10 py-5 bg-primary text-white font-orbitron font-black text-sm tracking-widest hover:brightness-110 transition-all shadow-[0_0_40px_rgba(10,132,255,0.3)]">
             DOWNLOAD WHITEPAPER (PDF)

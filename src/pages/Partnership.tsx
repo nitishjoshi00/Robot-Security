@@ -44,7 +44,7 @@ export const Partnership = () => {
               WHERE <span className="text-primary">RESEARCH</span> MEETS REALITY.
             </h1>
             <p className="text-muted text-xl leading-relaxed mb-10">
-              Roland Begus's autonomous security platform is built on years of rigorous research and development in partnership with Maynooth University, Ireland.
+              Founded by Roland Begus, RoliRobotics Limited's autonomous security platform is built on years of rigorous research and development in partnership with Maynooth University, Ireland.
             </p>
             <div className="flex flex-wrap gap-8">
               <div className="flex items-center gap-3">
@@ -70,8 +70,8 @@ export const Partnership = () => {
           <div className="relative">
             <div className="aspect-[4/5] bg-surface rounded-[60px] overflow-hidden border border-white/10 shadow-2xl group">
               <img 
-                src="https://picsum.photos/seed/maynooth/800/1000" 
-                alt="Maynooth University Lab" 
+                src="https://picsum.photos/seed/roland-quad/1200/800" 
+                alt="Roland Begus with RoliRobotics Quadruped" 
                 className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-1000"
                 referrerPolicy="no-referrer"
               />
@@ -79,7 +79,7 @@ export const Partnership = () => {
               <div className="absolute bottom-10 left-10 p-8 bg-surface/80 backdrop-blur-xl border border-white/10 rounded-3xl max-w-xs">
                 <div className="text-accent font-orbitron text-[10px] font-bold mb-2 tracking-widest">MU ROBOTICS LAB</div>
                 <p className="text-white text-sm font-medium leading-relaxed">
-                  "The collaboration with Roland Begus allows our students to apply theoretical AI to critical real-world security challenges."
+                  "The collaboration with RoliRobotics Limited allows our students to apply theoretical AI to critical real-world security challenges."
                 </p>
               </div>
             </div>
@@ -92,7 +92,7 @@ export const Partnership = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20">
             <h2 className="text-4xl font-black mb-4 font-orbitron">THE RESEARCH PILLARS</h2>
-            <p className="text-muted text-lg">Four core areas where MU research drives AEGIS innovation.</p>
+            <p className="text-muted text-lg">Four core areas where MU research drives RoliRobotics innovation.</p>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
             <ResearchCard 
@@ -141,9 +141,9 @@ export const Partnership = () => {
               <ul className="space-y-4 mb-10">
                 {[
                   "Annual Robotics Excellence Scholarship",
-                  "Direct pathway to AEGIS Engineering roles",
+                  "Direct pathway to RoliRobotics Engineering roles",
                   "Joint research publications in top-tier journals",
-                  "Access to the Roland Begus Testing Grounds"
+                  "Access to the RoliRobotics Testing Grounds"
                 ].map((item, i) => (
                   <li key={i} className="flex items-center gap-3 text-white font-medium">
                     <CheckCircle className="text-accent" size={20} />

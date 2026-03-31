@@ -46,7 +46,7 @@ export const Demo = () => {
               BOOK A <span className="text-primary">PRIVATE</span> DEMONSTRATION.
             </h1>
             <p className="text-muted text-xl leading-relaxed">
-              See the Roland Begus autonomous security platform in action. We'll walk you through deployment, sensor fusion, and real-time response.
+              See the RoliRobotics Limited autonomous security platform in action. We'll walk you through deployment, sensor fusion, and real-time response.
             </p>
           </motion.div>
         </div>
@@ -64,7 +64,7 @@ export const Demo = () => {
                   {
                     icon: <Shield className="text-primary" />,
                     title: "Live Robot Patrol",
-                    desc: "Watch the AEGIS-04 navigate a complex environment in real-time."
+                    desc: "Watch the ROLI-QUAD-04 navigate a complex environment in real-time."
                   },
                   {
                     icon: <Zap className="text-accent" />,

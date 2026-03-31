@@ -67,7 +67,7 @@ export const CaseStudies = () => {
               PROVEN <span className="text-primary">RESULTS</span> IN THE FIELD.
             </h1>
             <p className="text-muted text-xl leading-relaxed">
-              From university campuses to industrial warehouses, Roland Begus's autonomous security robots are delivering measurable impact every day.
+              From university campuses to industrial warehouses, RoliRobotics Limited's autonomous security robots are delivering measurable impact every day.
             </p>
           </motion.div>
         </div>
@@ -150,7 +150,7 @@ export const CaseStudies = () => {
                 <div className="absolute bottom-10 left-10 right-10 p-6 bg-surface/80 backdrop-blur-xl border border-white/10 rounded-2xl flex justify-between items-center">
                   <div>
                     <div className="text-white font-bold text-lg">Industrial Patrol</div>
-                    <div className="text-muted text-[10px] uppercase tracking-widest font-mono">Unit: AEGIS-04</div>
+                    <div className="text-muted text-[10px] uppercase tracking-widest font-mono">Unit: ROLI-QUAD-04</div>
                   </div>
                   <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center text-primary">
                     <Zap size={24} />

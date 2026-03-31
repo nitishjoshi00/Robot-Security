@@ -49,7 +49,7 @@ export const Impact = () => {
               FROM DANGER.
             </h1>
             <p className="text-muted text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed font-medium">
-              Roland Begus's autonomous security robots stand between threats and humans, absorbing risk so your people never have to.
+              RoliRobotics Limited's autonomous security robots stand between threats and humans, absorbing risk so your people never have to.
             </p>
           </motion.div>
         </div>
@@ -73,7 +73,7 @@ export const Impact = () => {
           <ImpactCard 
             icon={Users}
             title="Community Safety"
-            description="AEGIS robots provide a visible, non-lethal deterrent that makes public spaces, campuses, and events safer for everyone."
+            description="RoliRobotics robots provide a visible, non-lethal deterrent that makes public spaces, campuses, and events safer for everyone."
             stats="10M+ PROTECTED"
           />
         </div>
